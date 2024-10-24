@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="SleepyUtilities:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/SleepyUtilities_jar</output-path>
-    <root id="archive" name="SleepyUtilities.jar">
-      <element id="module-output" name="SleepyUtilities" />
-    </root>
-  </artifact>
-</component>
