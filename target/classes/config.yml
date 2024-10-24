@@ -1,0 +1,68 @@
+#---------------------------------------------------------------
+
+DiscordWebhook:
+  Url: "https://discord.com/api/webhooks/your-webhook-id/your-webhook-token"
+
+#---------------------------------------------------------------
+
+CommandBlocker:
+  Enable: true
+
+blocked-commands:
+  - /?
+  - /bukkit
+  - /bukkit:about
+  - /bukkit:ver
+  - /bukkit:version
+  - /bukkit:?
+  - /bukkit:pl
+  - /bukkit:plugins
+  - /plugins
+  - /pl
+  - /about
+  - /version
+  - /ver
+  - /icanhasbukkit
+block-message: "You do not have permission to use this command."
+
+#---------------------------------------------------------------
+
+BlockLimit:
+  Enable: true
+  Limits:
+    REDSTONE_WIRE: 20
+    REDSTONE_TORCH: 10
+    REDSTONE_BLOCK: 5
+    PISTON: 10
+    STICKY_PISTON: 10
+    DISPENSER: 10
+    DROPPER: 10
+    HOPPER: 10
+    OBSERVER: 10
+    REPEATER: 10
+    COMPARATOR: 10
+
+#---------------------------------------------------------------
+
+EntityLimit:
+  Enable: true
+  Limits:
+    ZOMBIE: 10
+    SKELETON: 10
+    CREEPER: 5
+    ENDERMAN: 5
+    VILLAGER: 10
+    SNOWBALL: 20
+
+#---------------------------------------------------------------
+
+AntiRedstoneClock:
+  Enable: true
+  check:
+    comparator: true
+    observer: true
+    piston: true
+    redstone: true
+    repeater: true
+  ticksChecked: 25
+  timeLimitSeconds: 5
